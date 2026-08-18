@@ -43,7 +43,16 @@ const ContentBlock = ({
           direction={direction}
         >
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon src={icon} width="100%" height="100%" />
+            <SvgIcon
+              src={icon}
+              width="100%"
+              height="100%"
+              style={
+                icon === "cover.svg"
+                  ? { borderRadius: 24, boxShadow: "0 16px 32px rgba(0,0,0,0.12)" }
+                  : undefined
+              }
+            />
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
@@ -89,8 +98,8 @@ const ContentBlock = ({
                             <Col key={id} span={11}>
                               <SvgIcon
                                 src={item.icon}
-                                width="60px"
-                                height="60px"
+                                width="200px"
+                                height="200px"
                               />
                               <MinTitle>{t(item.title)}</MinTitle>
                               <MinPara>{t(item.content)}</MinPara>

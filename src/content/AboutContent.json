@@ -1,16 +1,16 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Everything you need",
+  "text": "",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Nanopositioner",
+      "content": "3D print or machine your own with the included CAD files, engineering drawings, and build instructions",
+      "icon": "nanopositioner.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Nano-Core",
+      "content": "Assemble your own controller with the included firmware code, electrical schematics, and wiring diagrams",
+      "icon": "controller.svg"
     }
   ]
 }

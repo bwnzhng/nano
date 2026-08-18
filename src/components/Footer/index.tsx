@@ -48,7 +48,7 @@ const Footer = ({ t }: { t: TFunction }) => {
   return (
     <>
       <FooterSection>
-        <Container>
+        {/* <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
@@ -56,7 +56,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:bzheng2438@gmail.com">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -108,7 +108,7 @@ const Footer = ({ t }: { t: TFunction }) => {
               </LanguageSwitchContainer>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
       </FooterSection>
       <Extra>
         <Container border={true}>
@@ -128,12 +128,12 @@ const Footer = ({ t }: { t: TFunction }) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-              <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
+              {/* <SocialLink
+                href="https://github.com/bwnzhng/Open-Nano"
                 src="github.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
+                href="https://x.com/bwnzhng2003"
                 src="twitter.svg"
               />
               <SocialLink
@@ -155,7 +155,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
                   alt="Buy Me a Coffee at ko-fi.com"
                 />
-              </a>
+              </a> */}
             </FooterContainer>
           </Row>
         </Container>
