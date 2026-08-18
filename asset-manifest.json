@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/nano/static/css/main.37ddbf14.css",
+    "main.js": "/nano/static/js/main.29bd4f23.js",
+    "static/js/882.c2884c0e.chunk.js": "/nano/static/js/882.c2884c0e.chunk.js",
+    "static/js/676.2ef7a874.chunk.js": "/nano/static/js/676.2ef7a874.chunk.js",
+    "static/js/416.399160ac.chunk.js": "/nano/static/js/416.399160ac.chunk.js",
+    "static/js/538.b149b619.chunk.js": "/nano/static/js/538.b149b619.chunk.js",
+    "static/js/566.1e879537.chunk.js": "/nano/static/js/566.1e879537.chunk.js",
+    "static/js/91.7a11def9.chunk.js": "/nano/static/js/91.7a11def9.chunk.js",
+    "static/js/545.ddccf5cb.chunk.js": "/nano/static/js/545.ddccf5cb.chunk.js",
+    "index.html": "/nano/index.html",
+    "main.37ddbf14.css.map": "/nano/static/css/main.37ddbf14.css.map",
+    "main.29bd4f23.js.map": "/nano/static/js/main.29bd4f23.js.map",
+    "882.c2884c0e.chunk.js.map": "/nano/static/js/882.c2884c0e.chunk.js.map",
+    "676.2ef7a874.chunk.js.map": "/nano/static/js/676.2ef7a874.chunk.js.map",
+    "416.399160ac.chunk.js.map": "/nano/static/js/416.399160ac.chunk.js.map",
+    "538.b149b619.chunk.js.map": "/nano/static/js/538.b149b619.chunk.js.map",
+    "566.1e879537.chunk.js.map": "/nano/static/js/566.1e879537.chunk.js.map",
+    "91.7a11def9.chunk.js.map": "/nano/static/js/91.7a11def9.chunk.js.map",
+    "545.ddccf5cb.chunk.js.map": "/nano/static/js/545.ddccf5cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37ddbf14.css",
+    "static/js/main.29bd4f23.js"
+  ]
+}
