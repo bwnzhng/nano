@@ -110,3 +110,10 @@ Licensed under the MIT license.
 [Landy]: https://www.npmjs.com/package/cra-template-adrinlol
 [Google Lighthouse]: https://developers.google.com/web/tools/lighthouse
 <!-- prettier-ignore-end -->
+
+
+npm install react-router-dom@5.3.3 antd@4.24.16 styled-components@5.3.3 i18next@21.9.0 i18next-browser-languagedetector@3.1.1 i18next-xhr-backend@3.0.1 react-i18next@11.11.0 react-awesome-reveal@4.2.1
+
+
+
+npm run build
