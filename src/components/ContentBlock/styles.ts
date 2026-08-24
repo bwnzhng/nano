@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const ContentSection = styled("section")`
   position: relative;
-  padding: 10rem 0 8rem;
+  padding: 3rem 0 5rem;
 
   @media only screen and (max-width: 1024px) {
     padding: 4rem 0 4rem;
@@ -58,5 +58,43 @@ export const ButtonWrapper = styled("div")`
 
   button:last-child {
     margin-left: 20px;
+  }
+`;
+
+export const SpecificationTable = styled("table")`
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  color: #434343;
+
+  th,
+  td {
+    border: 1px solid #dfe5e8;
+    padding: 0.6rem 0.45rem;
+    text-align: left;
+  }
+
+  th {
+    background: #2e186a;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  tr:nth-child(even) td {
+    background: #f6f8f9;
+  }
+
+  td:last-child {
+    text-align: right;
+  }
+
+  @media only screen and (max-width: 575px) {
+    font-size: 0.7rem;
+
+    th,
+    td {
+      padding: 0.45rem 0.3rem;
+    }
   }
 `;

@@ -3,7 +3,8 @@
   "text": "Low-cost open-source instrument for nanoscale manipulation",
   "button": [
     {
-      "title": "Build your own"
+      "title": "Build your own",
+      "link": "https://github.com/bwnzhng/Open-Nano"
     },
     {
       "title": "Learn more",

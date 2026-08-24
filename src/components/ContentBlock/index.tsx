@@ -14,6 +14,7 @@ import {
   MinPara,
   StyledRow,
   ButtonWrapper,
+  SpecificationTable,
 } from "./styles";
 
 const ContentBlock = ({
@@ -25,6 +26,7 @@ const ContentBlock = ({
   t,
   id,
   direction,
+  belowIcon,
 }: ContentBlockProps) => {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -43,16 +45,19 @@ const ContentBlock = ({
           direction={direction}
         >
           <Col lg={11} md={11} sm={12} xs={24}>
-            <SvgIcon
-              src={icon}
-              width="100%"
-              height="100%"
-              style={
-                icon === "cover.svg"
-                  ? { borderRadius: 24, boxShadow: "0 16px 32px rgba(0,0,0,0.12)" }
-                  : undefined
-              }
-            />
+            {icon && (
+              <SvgIcon
+                src={icon}
+                width="100%"
+                height="100%"
+                style={
+                  icon === "cover.svg"
+                    ? { borderRadius: 24, boxShadow: "0 16px 32px rgba(0,0,0,0.12)" }
+                    : undefined
+                }
+              />
+            )}
+            {belowIcon}
           </Col>
           <Col lg={11} md={11} sm={11} xs={24}>
             <ContentWrapper>
@@ -66,6 +71,8 @@ const ContentBlock = ({
                         item: {
                           color?: string;
                           title: string;
+                          link?: string;
+                          target?: string;
                         },
                         id: number
                       ) => {
@@ -73,7 +80,8 @@ const ContentBlock = ({
                           <Button
                             key={id}
                             color={item.color}
-                            onClick={() => scrollTo("about")}
+                            href={item.link}
+                            onClick={() => scrollTo(item.target || "about")}
                           >
                             {t(item.title)}
                           </Button>
@@ -98,8 +106,13 @@ const ContentBlock = ({
                             <Col key={id} span={11}>
                               <SvgIcon
                                 src={item.icon}
-                                width="200px"
-                                height="200px"
+                                width="100%"
+                                height="auto"
+                                style={{
+                                  maxWidth: "200px",
+                                  height: "auto",
+                                  objectFit: "contain",
+                                }}
                               />
                               <MinTitle>{t(item.title)}</MinTitle>
                               <MinPara>{t(item.content)}</MinPara>
