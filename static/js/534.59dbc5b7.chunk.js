@@ -3,7 +3,7 @@
   padding: 3rem 0 5rem;
 
   @media only screen and (max-width: 1024px) {
-    padding: 4rem 0 4rem;
+    padding: 2rem 0 2rem;
   }
 `,a=(0,o.Ay)("p")`
   margin: 1.5rem 0 2rem 0;
@@ -78,4 +78,4 @@
     }
   }
 `}}]);
-//# sourceMappingURL=534.e83db29a.chunk.js.map
+//# sourceMappingURL=534.59dbc5b7.chunk.js.map
