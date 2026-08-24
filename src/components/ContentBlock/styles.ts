@@ -6,7 +6,7 @@ export const ContentSection = styled("section")`
   padding: 3rem 0 5rem;
 
   @media only screen and (max-width: 1024px) {
-    padding: 4rem 0 4rem;
+    padding: 2rem 0 2rem;
   }
 `;
 
